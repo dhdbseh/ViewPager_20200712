@@ -20,6 +20,7 @@ class MainActivity : BaseActivity() {
 
         //탭 레이아웃 + 뷰페이저 연결
         myTabLayout.setupWithViewPager(mainViewPager)
-
+        
+        //오류 고쳤따
     }
 }
