@@ -19,7 +19,7 @@ class MainActivity : BaseActivity() {
         mainViewPager.adapter = mvpa
 
         //탭 레이아웃 + 뷰페이저 연결
-        myTapLayout.setupWithViewpager(mainViewPager)
+        mytaplayout.setupWithViewpager(mainViewPager)
 
     }
 }
