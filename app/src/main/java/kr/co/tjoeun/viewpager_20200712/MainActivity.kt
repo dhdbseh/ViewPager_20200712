@@ -18,10 +18,8 @@ class MainActivity : BaseActivity() {
         mvpa = MainViewPagerAdapter(supportFragmentManager)
         mainViewPager.adapter = mvpa
 
-    }
+        //탭 레이아웃 + 뷰페이저 연결
+        myTapLayout.setupWithViewpager(mainViewPager)
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
     }
 }
